@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical">
+
+    <com.yjrlab.tabdoctor.libs.CustomActionBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:iconVisible="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_textbox_white_10"
+        android:isScrollContainer="true"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/npTitle"
+            android:textAppearance="@style/TextAppearance.FontPathBold"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="18dp"
+            android:gravity="left"
+            android:scrollbars="vertical"
+            android:text="@string/npDesc" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:gravity="center_vertical">
+
+        <com.yjrlab.tabdoctor.libs.CheckableButton
+            android:id="@+id/checkableButton"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/selector_btn_check_black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="개인정보의 제3자 제공"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="에 관하여 동의합니다" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonOk"
+        style="@style/button"
+        android:layout_margin="20dp"
+        android:text="확인" />
+
+
+</LinearLayout>

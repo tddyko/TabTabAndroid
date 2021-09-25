@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_bg"
+    tools:context=".view.setting.DoubtRegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.yjrlab.tabdoctor.libs.CustomActionBar
+            android:id="@+id/customActionBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:iconVisible="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/doubtTitle1"
+            android:textAppearance="@style/TextAppearance.FontPathLight" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="@string/doubtTitle2"
+            android:textAppearance="@style/TextAppearance.FontPathLight"
+            android:textColor="@color/red" />
+
+        <include layout="@layout/view_human" />
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/buttonReg"
+        style="@style/buttonSmall"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="35dp"
+        android:text="등록" />
+
+</FrameLayout>

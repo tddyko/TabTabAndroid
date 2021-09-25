@@ -1,0 +1,125 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <style name="AppTheme.Dialog" parent="@style/Theme.AppCompat.Light.Dialog">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <declare-styleable name="CustomActionBar">
+        <attr name="textSize" format="dimension" />
+        <attr name="titleIcon" format="reference|integer" />
+        <attr name="iconVisible" format="boolean" />
+        <attr name="homeVisible" format="boolean" />
+    </declare-styleable>
+
+
+    <style name="whiteTitle20">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="blackTitle15">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="blackTitle17">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="blackTitle20">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="blueTitle17">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+
+    <style name="blueTitleBold17">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textAppearance">@style/TextAppearance.FontPathBold</item>
+    </style>
+
+    <style name="blueTitle20">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textAppearance">@style/TextAppearance.FontPathBold</item>
+    </style>
+
+
+    <style name="whiteTitleBold">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <style name="TextAppearance.FontPathLight" parent="android:TextAppearance">
+        <item name="fontPath">fonts/nanumbarungothiclight.ttf</item>
+    </style>
+
+    <style name="TextAppearance.FontPathUltraLight" parent="android:TextAppearance">
+        <item name="fontPath">fonts/nanumbarungothicultralight.ttf</item>
+    </style>
+
+    <style name="TextAppearance.FontPathBold" parent="android:TextAppearance">
+        <item name="fontPath">fonts/nanumbarungothicbold.ttf</item>
+    </style>
+
+    <style name="TextAppearance.FontPathDefault" parent="android:TextAppearance">
+        <item name="fontPath">fonts/nanumbarungothic.ttf</item>
+    </style>
+
+    <style name="TextAppearance.FontPathLogo" parent="android:TextAppearance">
+        <item name="fontPath">fonts/arlrdbd.ttf</item>
+    </style>
+
+    <style name="button">
+        <item name="android:layout_width">180dp</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/button_b</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="buttonSmall">
+        <item name="android:layout_width">180dp</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/button_b</item>
+    </style>
+
+
+</resources>

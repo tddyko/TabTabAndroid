@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/kominhyuk/Project/tapdoctorandroid/app/libs/naver_login_4.1.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="194d914e51c00c0a5319365eea98050edf6625a9">
+        <dex dex="/Users/kominhyuk/Project/tapdoctorandroid/app/build/intermediates/transforms/dex/debug/folders/1000/2/naver_login_4.1.4_2a76f945f05e220350d1e5896dd7f9f42547b548/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kominhyuk/Project/tapdoctorandroid/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e499fe9a8ed77bd9631f833097d2c8d40284b255">
+        <dex dex="/Users/kominhyuk/Project/tapdoctorandroid/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_e6aeb68b93b080861629089ca6848e6b2dbebbd2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kominhyuk/Project/tapdoctorandroid/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/kominhyuk/Project/tapdoctorandroid/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_50da002138bf26d9f64ce9a3d605a88aecc63583/classes.dex" />
+    </item>
+
+</items>

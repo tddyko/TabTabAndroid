@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:background="@drawable/bg_textbox_white_20"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:background="@drawable/bg_red_top">
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/whiteTitle20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="TAP Doctor"
+            android:textAppearance="@style/TextAppearance.FontPathBold" />
+
+        <ImageView
+
+            android:id="@+id/buttonClose"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/icon_close" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutContents"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="경고"
+            android:textAppearance="@style/TextAppearance.FontPathBold"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="left"
+            android:scrollbars="vertical"
+            android:text="@string/warningTitle" />
+
+        <Button
+            android:id="@+id/buttonOk"
+            style="@style/button"
+            android:layout_margin="20dp"
+            android:text="확인" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <com.yjrlab.tabdoctor.libs.CheckableButton
+                android:id="@+id/checkableButton"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/selector_btn_check_black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="오늘 보지 않음" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+

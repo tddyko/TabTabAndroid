@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <TextView
+            android:id="@+id/textViewKeyword"
+            style="@style/blackTitle17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quot" />
+
+        <TextView
+            style="@style/blackTitle17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 검색 시 검색되는 질병 총 " />
+
+        <TextView
+            android:id="@+id/textViewDiseaseNum"
+            style="@style/blueTitle17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="12건" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/divider" />
+
+
+</LinearLayout>
